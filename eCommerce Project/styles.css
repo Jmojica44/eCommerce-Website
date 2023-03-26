@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+li {
+    display: inline;
+  }
+
+html {
+    box-sizing:border-box;
+    font-size: 62.5%;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
+.textcolor {
+    text-emphasis-color: #000000;
+}
